@@ -56,6 +56,12 @@
     <Compile Include="frmCuonSach_List.Designer.cs">
       <DependentUpon>frmCuonSach_List.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmDocGia_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDocGia_Add.Designer.cs">
+      <DependentUpon>frmDocGia_Add.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmDocGia_List.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +75,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmCuonSach_List.resx">
       <DependentUpon>frmCuonSach_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDocGia_Add.resx">
+      <DependentUpon>frmDocGia_Add.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmDocGia_List.resx">
       <DependentUpon>frmDocGia_List.cs</DependentUpon>
