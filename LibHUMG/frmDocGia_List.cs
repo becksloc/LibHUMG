@@ -27,8 +27,7 @@ namespace LibHUMG
         public void LoadForm()
         {
             DocGiaBL objDocGiaBL = new DocGiaBL();
-            List<DocGia> lstDocGia = objDocGiaBL.GetList();
-            dgvdocgia.DataSource = lstDocGia;
+            dgvdocgia.DataSource = objDocGiaBL.GetList();
             string[] columns = { "DocGiaID", "MaDocGia", "HoTen", "NgaySinh", "QueQuan", "", "DienThoai", "Email", "NgayDangKy", "NgayTaoThe", "Hansd", "TrangThai", "Username", "Password" };
             ControlFormat.DataGridViewFormat(dgvdocgia, columns);
         }
